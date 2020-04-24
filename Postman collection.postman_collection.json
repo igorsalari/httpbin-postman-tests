@@ -14,8 +14,8 @@
 					"script": {
 						"id": "d87953d3-e60e-4798-ba72-e9a2654e0542",
 						"exec": [
-							"pm.test(\"Status code is 201\", function () {",
-							"    pm.response.to.have.status(201);",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
 							"});",
 							"",
 							"let jsonData = pm.response.json();",
